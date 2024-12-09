@@ -1,5 +1,6 @@
 package smoke;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import basepage.BasePage;
 import org.testng.annotations.Test;
@@ -13,18 +14,8 @@ import org.testng.annotations.Test;
             loginPage.enterPassword(password);
             loginPage.clickLogin();
             System.out.println(driver.getCurrentUrl());
+            Assert.assertEquals(driver.getCurrentUrl(),"https://automationteststore.com/index.php?rt=account/account");
            }
 
-        @Test
-        public void invalidLoginTest ()
-        {
-            String loginname= "admin";
-            String password = "admin@123";
-            loginPage.enterLoginName(loginname);
-            loginPage.enterPassword(password);
-            loginPage.clickLogin();
-            System.out.println(driver.getCurrentUrl());
-
-        }
     }
 
