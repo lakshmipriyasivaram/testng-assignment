@@ -15,6 +15,7 @@ import java.time.Duration;
 public class BasePage {
     protected WebDriver driver;
     protected LoginPage loginPage;
+    protected DashboardPage dashboardPage;
 
     MyUtils commonActions = new MyUtils();
     @BeforeMethod
@@ -42,7 +43,7 @@ public class BasePage {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.get("https://automationteststore.com/index.php?rt=account/login");
         loginPage = new LoginPage(driver);
-
+        dashboardPage = new DashboardPage(driver);
     }
 
     @AfterMethod

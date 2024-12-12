@@ -30,4 +30,5 @@ public class LoginPage {
         WebElement loginButton = driver.findElement(LOGIN_BUTTON);
         loginButton.click();
     }
+
 }
