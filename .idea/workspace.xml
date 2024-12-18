@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="154ee339-b649-490e-8966-fc9c1b9666ce" name="Changes" comment="Added the assertion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/DashboardPage.java" afterDir="false" />
+    <list default="true" id="154ee339-b649-490e-8966-fc9c1b9666ce" name="Changes" comment="Added the assertion and validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basepage/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/smoke/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/smoke/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.invalidLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testProductSelection.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.validLoginTest.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -70,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.validLoginTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAssignment" />
       <extension name="coverage">
@@ -106,6 +104,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testProductSelection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PracticeAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="smoke" />
+      <option name="MAIN_CLASS_NAME" value="smoke.LoginTest" />
+      <option name="METHOD_NAME" value="testProductSelection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.validLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeAssignment" />
       <extension name="coverage">
@@ -126,8 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.validLoginTest" />
+        <item itemvalue="TestNG.LoginTest.testProductSelection" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
       </list>
     </recent_temporary>
@@ -173,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733835740364</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the assertion and validation">
+      <option name="closed" value="true" />
+      <created>1734007785256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734007785256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +216,7 @@
     <MESSAGE value="New repository created" />
     <MESSAGE value="Added smake test to login automation page" />
     <MESSAGE value="Added the assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the assertion" />
+    <MESSAGE value="Added the assertion and validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the assertion and validation" />
   </component>
 </project>

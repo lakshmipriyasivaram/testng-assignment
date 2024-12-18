@@ -19,6 +19,7 @@ public class DashboardPage  {
             String actual_url = ldriver.getCurrentUrl();
             Assert.assertEquals(actual_url, expected_url);
             Assert.assertNotEquals(actual_url, login_url);
+            Assert.assertEquals(ldriver.getCurrentUrl(), "https://automationteststore.com/index.php?rt=account/account");
 
         }
 
